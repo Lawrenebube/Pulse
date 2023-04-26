@@ -15,12 +15,5 @@
     font-family: 'Work Sans', sans-serif;
     list-style-type: none;
 }
-template {
-  display: grid;
-    grid-template-columns: 1fr;
-    margin: auto;
-    min-height: 100vh;
-    place-items: center;
-    max-width: 1440px;
-}
+
 </style>

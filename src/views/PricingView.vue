@@ -187,7 +187,10 @@
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    place-content: center;
     min-height: 100vh;
+    width: 84.3em;
+    margin: auto;
  }
  main {
     text-align: center;
