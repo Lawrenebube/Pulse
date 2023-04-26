@@ -1,6 +1,6 @@
 # pulse
 
-##liveurl:https://lawrenebube-pulse.netlify.app/
+## liveurl:https://lawrenebube-pulse.netlify.app/
 
 ### Project setup
 ```
