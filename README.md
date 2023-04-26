@@ -1,6 +1,8 @@
 # pulse
 
-## Project setup
+##liveurl:https://lawrenebube-pulse.netlify.app/
+
+### Project setup
 ```
 npm install
 ```
