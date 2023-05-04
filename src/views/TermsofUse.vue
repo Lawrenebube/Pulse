@@ -373,7 +373,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
-    padding: 5em 6em;
+    padding: 7em 6em;
 }
 main h1 {
     font-size: 3.2rem;
