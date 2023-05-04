@@ -555,8 +555,11 @@ export default {
 }
 .onlineWay {
   display: flex;
-  padding: 5em 7em 9em 7em;
+  padding: 10em 7em 9em 7em;
   gap: 7em;
+}
+button {
+  cursor: pointer;
 }
 .onlineWay h2 {
   font-weight: 700;
