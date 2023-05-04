@@ -2,7 +2,9 @@
     <footer>
         <div class="footlinks">
             <div class="logoButton">
-                <img src="../assets/pulse-logo.svg" alt="">
+                <router-link to="/">
+                    <img src="../assets/pulse-logo.svg" alt="">
+                </router-link>
                 <button aria-label="signup"  class="signUp">Sign Up for a Free 30-Day Trial</button>
             </div>
             <div class="links">
@@ -47,7 +49,7 @@
         <div class="foot">
             <p>
                    &copy; 2019 Pulseapp.com, Inc. All Rights Reserved |
-                   <router-link to="/terms" exact>Terms of Use  </router-link>| 
+                   <router-link to="/TermsofUse" exact>Terms of Use  </router-link>| 
                    <router-link to="/privacy" exact>Privacy Policy  </router-link>| 
                    <router-link to="/eu-privacy" exact>EU Privacy</router-link> 
             </p>
@@ -77,7 +79,8 @@ footer {
     background-color: #080c16;
     height: 28em;
     padding: 4em 6em 2em 6em;
-    width: 84.3em;
+    max-width: 84.3em;
+    width: 100%;
     margin: auto;
     
 }

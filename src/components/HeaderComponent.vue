@@ -1,12 +1,17 @@
 <template>
   <header>
-        <img src="../assets/pulse-logo.svg" alt="">
+        <router-link to="/">
+          <img src="../assets/pulse-logo.svg" alt="">
+        </router-link>
+        
         <nav>
-          <router-link to="/" exact>Features</router-link> 
+          <router-link to="/Features" exact>Features</router-link> 
           <router-link to="/CustomerStories" class="customer-link" exact>Customer Stories</router-link>
           <router-link to="/Pricing" exact>Pricing</router-link> 
           <router-link to="/blog" exact>Blog</router-link>
+          <router-link to="/signUp">
           <button class="signUp">Sign Up</button>
+        </router-link>
         </nav>
     </header>
 </template>

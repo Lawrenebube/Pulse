@@ -35,6 +35,16 @@ const routes = [
     name: 'FeaturesView',
     component: () => import( '../views/FeaturesView.vue')
   },
+  {
+    path: '/signUp',
+    name: 'signUp',
+    component: () => import( '../views/signUp.vue')
+  },
+  {
+    path: '/TermsofUse',
+    name: 'TermsofUse',
+    component: () => import( '../views/TermsofUse.vue')
+  }
 
 
   
