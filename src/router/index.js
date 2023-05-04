@@ -44,6 +44,11 @@ const routes = [
     path: '/TermsofUse',
     name: 'TermsofUse',
     component: () => import( '../views/TermsofUse.vue')
+  },
+  {
+    path: '/privacy',
+    name: 'privacyPolicy',
+    component: () => import( '../views/privacyPolicy.vue')
   }
 
 
