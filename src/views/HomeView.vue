@@ -253,7 +253,7 @@
         <section>
           <h2>Pulse is the easy, online way to manage and project your cash flow.</h2>
           <router-link to="/CustomerStories">
-            <button aria-label="signup" class="onlineWaySignUp signUp" >See All Customer Stories</button>
+            <button aria-label="Customer Stories" class="onlineWaySignUp signUp" >See All Customer Stories</button>
           </router-link>
         </section>
         <section class="pulseCard">

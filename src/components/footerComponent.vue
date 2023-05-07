@@ -5,7 +5,9 @@
                 <router-link to="/">
                     <img src="../assets/pulse-logo.svg" alt="">
                 </router-link>
-                <button aria-label="signup"  class="signUp">Sign Up for a Free 30-Day Trial</button>
+                <router-link to="/signUp">
+                    <button aria-label="signup"  class="signUp">Sign Up for a Free 30-Day Trial</button>
+                </router-link>
             </div>
             <div class="links">
                 <ul class="link">

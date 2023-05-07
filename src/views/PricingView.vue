@@ -24,11 +24,11 @@
                     </ul>
                     <p>Just need the Pulse Basics?</p>
                     <p>
-                        <router-link to="/signup">Get them now </router-link>
+                        <router-link to="/signUp">Get them now </router-link>
                         <span>for $29 per month.</span>  
                     </p>
                 </div>
-                <router-link to="/signup" class="recommended">
+                <router-link to="/signUp" class="recommended">
                     <div class="heading">
                         <h2>RECOMMENDED</h2>
                     <p class="recommendedTitle">Small Business Plan</p>
@@ -61,7 +61,7 @@
                         </li>
                     </ul>
                 </router-link>
-                <router-link class="complexBusiness" to="/signup" >
+                <router-link class="complexBusiness" to="/signUp" >
                     <h2>
                         Complex business with multiple financial accounts, currencies, or auditing needs?
                     </h2>
